@@ -1,0 +1,84 @@
+<template>
+  <div class="card">
+    <div class="card-content">
+      <figure class="avatar centered-image">
+        <img src="~/assets/Clark.gif" alt="Selfie Gif" class="circle">
+      </figure>
+      <div id="title">
+        <h1 class="dark-text title is-1 is-spaced">
+          Clark Mitchell
+        </h1>
+        <p class="dark-text subtitle is-6">
+          Colorado Springs, CO
+        </p>
+        <p class="dark-text subtitle is-3">
+          Software Developer
+        </p>
+      </div>
+    </div>
+    <footer class="card-footer">
+      <a
+        title="Github Profile Link"
+        class="card-footer-item"
+        href="https://github.com/ClarkMitchell"
+      >
+        <span>
+          <figure class="centered-image">
+            <img src="~/assets/GitHub-Logo.jpg" alt="Github icon">
+          </figure>
+        </span>
+      </a>
+      <a
+        title="Linkedin Profile Link"
+        class="card-footer-item"
+        href="https://www.linkedin.com/in/clark-mitchell-03052b38/"
+      >
+        <span>
+          <figure class="centered-image">
+            <img src="~/assets/linkedin.jpg" alt="Linkedin icon">
+          </figure>
+        </span>
+      </a>
+      <a
+        title="Gitlab Profile Link"
+        class="card-footer-item"
+        href="https://gitlab.com/clarkcsmitchell"
+      >
+        <span>
+          <figure class="centered-image">
+            <img src="~/assets/Gitlab-Logo.jpg" alt="Gitlab icon">
+          </figure>
+        </span>
+      </a>
+    </footer>
+  </div>
+</template>
+
+<style scoped>
+.circle {
+  border-radius: 50%;
+  border: 5px solid white;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.46);
+}
+
+.centered-image {
+  display: block;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.avatar {
+  width: 60%;
+  top: -135px;
+}
+
+#title {
+  margin-top: -125px;
+}
+
+.dark-text.title.is-1,
+.dark-text.subtitle {
+  color: hsl(0, 0%, 21%);
+}
+</style>

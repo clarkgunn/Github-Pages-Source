@@ -1,0 +1,40 @@
+{
+  "name": "clarkmitchell.github.io",
+  "version": "1.0.0",
+  "description": "Github Pages Personal Site",
+  "author": "Clark Mitchell",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.1.1",
+    "@nuxtjs/bulma": "^1.0.3",
+    "@nuxtjs/font-awesome": "^1.0.3",
+    "@nuxtjs/google-analytics": "^2.0.2",
+    "@nuxtjs/pwa": "^2.0.8",
+    "file-loader": "^1.1.11",
+    "glob-all": "^3.1.0",
+    "image-webpack-loader": "3.6.0",
+    "nuxt": "^1.0.0",
+    "nuxt-bulma-slim": "^0.3.2",
+    "nuxt-cname-module": "^1.1.1",
+    "nuxt-material-design-icons": "^1.0.4",
+    "purgecss-webpack-plugin": "^0.22.0",
+    "vee-validate": "^2.0.6",
+    "vue-lottie": "^0.1.2",
+    "webp-loader": "^0.4.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.1",
+    "cross-env": "^5.0.1",
+    "eslint": "^4.15.0",
+    "eslint-loader": "^1.7.1",
+    "eslint-plugin-vue": "^4.0.0"
+  }
+}

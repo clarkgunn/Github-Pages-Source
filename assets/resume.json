@@ -1,0 +1,124 @@
+{
+	"basics": {
+		"name": "Clark Mitchell",
+		"label": "Software Developer",
+		"picture": "",
+		"email": "clarkmitchelldev@gmail.com",
+		"phone": "(352) 613-1150",
+		"website": "https://clarkmitchell.io",
+		"location": {
+			"address": "318 Oak Place",
+			"postalCode": "80829",
+			"city": "Manitou Springs",
+			"countryCode": "US",
+			"region": "Colorado"
+		},
+		"profiles": [{
+				"network": "Github",
+				"username": "ClarkMitchell",
+				"url": "https://github.com/ClarkMitchell"
+			},
+			{
+				"network": "Gitlab",
+				"username": "ClarkCSMitchell",
+				"url": "https://gitlab.com/clarkcsmitchell"
+			},
+      {
+				"network": "Linkedin",
+				"username": "Clark Mitchell",
+				"url": "https://www.linkedin.com/in/clark-mitchell-03052b38/"                     
+      }
+		]
+	},
+	"work": [{
+		"company": "Gleim Internet Inc",
+		"position": "Software Developer",
+		"website": "https://www.gleim.com",
+		"startDate": "2017-01-16",
+		"endDate": "",
+		"summary": "Gleim Publications develops study software for Accounting and Aviation examinations.",
+		"highlights": [
+			"Helped Develop an adaptive backend that guides students based on their strengths and weaknesses.",
+			"Integrated new technologies with a large legacy codebase.",
+			"Developed a reusable software bundle for securing internal tools via LDAP authentication."
+		]
+	}],
+	"education": [{
+		"institution": "University of West Florida",
+		"area": "Computer Science : 90% complete, left in good standing for personal reasons.",
+		"studyType": "Bachelor of Science",
+		"startDate": "2013-01-01",
+		"endDate": "2015-01-01",
+		"gpa": "3.8",
+		"courses": [
+			"COP 2253 Java Programming",
+			"COP 3014 Algorithm and Program Design",
+			"CDA 3101 Computer Organization",
+			"COP 3530 Data Structures and Algorithms",
+			"COP 4610 O/S Fundamentals",
+			"CEN 3031 Software Engineering",
+			"CIS 4385 Cyber-Sec Forensics",
+			"COP 3022 Intermediate Programming",
+			"COP 4710 Database Systems",
+			"CNT 4007 Network Fundamentals",
+			"COP 4027 Advanced Computer Programming"
+		]
+    },
+    {
+		"institution": "St Petersburg College",
+		"area": "Audio Engineering",
+		"studyType": "Associate of Science",
+		"startDate": "2010-01-04",
+		"endDate": "2012-07-01"
+    },
+    {
+		"institution": "St Petersburg College",
+		"area": "Liberal Arts",
+		"studyType": "Associate of Arts",
+		"startDate": "2010-01-04",
+		"endDate": "2012-07-01"
+    }    
+],
+	"awards": [{
+		"title": "Paltry Award",
+		"date": "2012-01-01",
+		"awarder": "St. Petersburg College",
+		"summary": "Produced, mixed, and mastered the highest voted song for the college's compilation album."
+	}],
+	"skills": [{
+			"name": "Web Development",
+			"level": "Master",
+			"keywords": [
+				"HTML",
+				"CSS",
+                "Javascript",
+                "Vue.js",
+                "Webpack",
+                "PHP",
+                "Symfony",
+                "Laravel"
+			]
+		},
+		{
+			"name": "Android Mobile Development",
+			"level": "Beginner",
+			"keywords": [
+				"Java",
+				"Android Studio",
+				"Nativescript"
+			]
+		}
+	],
+	"languages": [{
+		"language": "English",
+		"fluency": "Native speaker"
+	},
+  {
+    "language": "Japanese",
+    "fluency": "Fluent"
+  }],
+	"references": [{
+        "name": "Cameron Cooper",
+        "email": "lessercylinder@gmail.com"
+	}]
+}
