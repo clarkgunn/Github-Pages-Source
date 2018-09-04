@@ -1,7 +1,7 @@
 {
-  "name": "clarkmitchell.github.io",
+  "name": "clarkmitchell.io",
   "version": "1.0.0",
-  "description": "Github Pages Personal Site",
+  "description": "Github Pages Personal Site made with Vue, Nuxt, Bulma, and Webpack",
   "author": "Clark Mitchell",
   "private": true,
   "scripts": {
