@@ -45,7 +45,7 @@ module.exports = {
   */
   plugins: [
     { src: '~plugins/vee-validate.js', ssr: true},
-    { src: '~plugins/ga.js', ssr: false }  
+    { src: '~plugins/ga.js', ssr: false }
   ],
 
   /*

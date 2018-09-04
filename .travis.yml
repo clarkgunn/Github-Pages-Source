@@ -12,7 +12,7 @@ branches:
 
 install:
   - yarn install
-  - yarn run generate
+  - yarn run generate --env=production
 
 script:
   - echo "Skipping tests"
