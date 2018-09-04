@@ -50,7 +50,8 @@ module.exports = {
   /*
   ** Nuxt.js modules
   */
-  modules: [,
+  modules: [
+    '~/css/main.css',
     'nuxt-bulma-slim',
     '@nuxtjs/pwa',
     '@nuxtjs/axios',
