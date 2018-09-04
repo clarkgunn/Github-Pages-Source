@@ -19,11 +19,20 @@ export default ({ app }) => {
   /*
   ** Every time the route changes (fired on initialization too)
   */
-  app.router.afterEach((to, from) => {
+  app.router.afterEach((to, from) => {    
+    /*
+    ** Add Optimize
+    */
+    ga('require', 'GTM-K7WSSCT')
+    
     /*
     ** We tell Google Analytics to add a `pageview`
     */
     ga('set', 'page', to.fullPath)
+
+    /*
+    ** Send pageview
+    */
     ga('send', 'pageview')
   })
 }
