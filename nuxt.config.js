@@ -37,6 +37,7 @@ module.exports = {
   ** Global CSS
   */
   css: [
+    '~/css/main.css',
   ],
 
   /*
@@ -51,7 +52,6 @@ module.exports = {
   ** Nuxt.js modules
   */
   modules: [
-    '~/css/main.css',
     'nuxt-bulma-slim',
     '@nuxtjs/pwa',
     '@nuxtjs/axios',
