@@ -56,7 +56,12 @@ module.exports = {
     '@nuxtjs/pwa',
     '@nuxtjs/axios',
     '@nuxtjs/font-awesome',
+    '@nuxtjs/google-analytics'
   ],
+
+  'google-analytics': {
+    id: 'UA-116134810-1'
+  },
 
   /*
   ** Build configuration
