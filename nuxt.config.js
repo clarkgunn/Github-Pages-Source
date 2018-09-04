@@ -55,7 +55,6 @@ module.exports = {
     '@nuxtjs/pwa',
     '@nuxtjs/axios',
     '@nuxtjs/font-awesome',
-    '@/assets/optimize.css'
   ],
 
   /*
