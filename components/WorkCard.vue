@@ -3,7 +3,7 @@
     <a :href="work.url">
       <div class="card-image">
         <figure class="image is-4by3">
-          <img :src="image" :alt="work.imageAlt">
+          <img :src="work.image" :alt="work.imageAlt">
         </figure>
       </div>
       <div class="card-content">
@@ -33,11 +33,6 @@
 <script>
 export default {
   props: ['work'],
-  data() {
-    return {
-      image: require(this.work.image),
-    };
-  },
 };
 </script>
 
