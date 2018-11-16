@@ -37,7 +37,7 @@ label {
   height: 100%;
   background: hsl(204, 86%, 53%);
   background: url('/mountain.png')center center;
-  background: url('~/assets/mountain.png')center center,
+  background: url('/mountain.png')center center,
     linear-gradient(45deg, hsl(204, 86%, 53%), hsl(171, 100%, 41%));
   background-size: cover;
   background-attachment: fixed;
