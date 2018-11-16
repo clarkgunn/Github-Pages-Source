@@ -44,8 +44,7 @@ module.exports = {
   ** Plugins to load before mounting the App
   */
   plugins: [
-    { src: '~plugins/vee-validate.js', ssr: true},
-    { src: '~plugins/ga.js', ssr: false }
+    { src: '~plugins/vee-validate.js', ssr: true}
   ],
 
   /*
@@ -56,12 +55,7 @@ module.exports = {
     '@nuxtjs/pwa',
     '@nuxtjs/axios',
     '@nuxtjs/font-awesome',
-    '@nuxtjs/google-analytics'
   ],
-
-  'google-analytics': {
-    id: 'UA-116134810-1'
-  },
 
   /*
   ** Build configuration
