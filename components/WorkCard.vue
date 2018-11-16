@@ -35,7 +35,7 @@ export default {
   props: ['work'],
   data() {
     return {
-      image: require('~/assets/' + this.work.image),
+      image: require('/' + this.work.image),
     };
   },
 };

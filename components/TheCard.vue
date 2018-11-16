@@ -2,7 +2,7 @@
   <div class="card">
     <div class="card-content">
       <figure class="avatar centered-image">
-        <img src="~/assets/Clark.png" alt="Selfie Gif" class="circle">
+        <img src="/Clark.png" alt="Selfie Gif" class="circle">
       </figure>
       <div id="title">
         <h1 class="dark-text title is-1 is-spaced">
@@ -24,7 +24,7 @@
       >
         <span>
           <figure class="centered-image">
-            <img src="~/assets/GitHub-Logo.jpg" alt="Github icon">
+            <img src="/GitHub-Logo.jpg" alt="Github icon">
           </figure>
         </span>
       </a>
@@ -35,7 +35,7 @@
       >
         <span>
           <figure class="centered-image">
-            <img src="~/assets/linkedin.jpg" alt="Linkedin icon">
+            <img src="/linkedin.jpg" alt="Linkedin icon">
           </figure>
         </span>
       </a>
@@ -46,7 +46,7 @@
       >
         <span>
           <figure class="centered-image">
-            <img src="~/assets/Gitlab-Logo.jpg" alt="Gitlab icon">
+            <img src="/Gitlab-Logo.jpg" alt="Gitlab icon">
           </figure>
         </span>
       </a>
