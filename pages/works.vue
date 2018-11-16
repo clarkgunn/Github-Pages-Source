@@ -1,7 +1,7 @@
 <template>
   <div class="hero-body">
     <div class="container has-text-centered">
-      <div class="columns">
+      <div class="columns is-desktop">
         <div 
           v-for="work in works"
           :key="work.id"
