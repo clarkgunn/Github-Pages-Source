@@ -19,7 +19,7 @@ const createStore = () => {
                     imageAlt: 'Android App Viking Quiz Preview Image',
                     url: 'https://github.com/ClarkMitchell/VikingQuiz',
                     sourceUrl: 'https://github.com/ClarkMitchell/VikingQuiz',
-                    text: 'A Viking Themed Native Android Quiz App.',
+                    text: 'A Viking Themed Native Quiz App For Android Devices.',
                 },
                 {
                     id: 1,
@@ -48,20 +48,20 @@ const createStore = () => {
                     url:
                         'https://github.com/ClarkMitchell/SpellingQuiz/tree/master/SpellingQuiz/dist',
                     sourceUrl: 'https://github.com/ClarkMitchell/SpellingQuiz',
-                    text: 'A Speaking and Spelling Java Education App.',
+                    text: 'A Speaking and Spelling Education app written in Java.',
                 },
                 {
                     id: 4,
-                    name: 'ClarkMitchell.io',
+                    name: 'ClarkMitchell',
                     image: '/site-preview.jpg',
                     imageAlt: 'This site, ClarkMitchell.github.io',
                     url: 'https://ClarkMitchell.io',
                     sourceUrl: 'https://github.com/ClarkMitchell/Github-Pages-Source',
-                    text: 'This site made with Vue.js and Nuxt.',
+                    text: 'This site made using a combination of Vue.js and Nuxt.',
                 },
                 {
                     id: 5,
-                    name: 'RebekahAndClark.com',
+                    name: 'Wedding',
                     image: '/rebekah-and-clark.jpg',
                     imageAlt: 'A wedding site with a twilio RSVP app and API.',
                     url: 'https://rebekahandclark.com',
