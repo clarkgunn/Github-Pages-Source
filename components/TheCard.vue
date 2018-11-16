@@ -2,7 +2,7 @@
   <div class="card">
     <div class="card-content">
       <figure class="avatar centered-image">
-        <img src="~/assets/Clark.gif" alt="Selfie Gif" class="circle">
+        <img src="~/assets/Clark.png" alt="Selfie Gif" class="circle">
       </figure>
       <div id="title">
         <h1 class="dark-text title is-1 is-spaced">
