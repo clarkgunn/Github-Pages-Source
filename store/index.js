@@ -15,7 +15,7 @@ const createStore = () => {
                 {
                     id: 0,
                     name: 'Viking Quiz',
-                    image: 'viking-quiz-preview.jpg',
+                    image: '/viking-quiz-preview.jpg',
                     imageAlt: 'Android App Viking Quiz Preview Image',
                     url: 'https://github.com/ClarkMitchell/VikingQuiz',
                     sourceUrl: 'https://github.com/ClarkMitchell/VikingQuiz',
@@ -24,7 +24,7 @@ const createStore = () => {
                 {
                     id: 1,
                     name: 'WhatBeer',
-                    image: 'what-beer-preview.jpg',
+                    image: '/what-beer-preview.jpg',
                     imageAlt: 'What Beer Web App preview image',
                     url: 'https://ClarkMitchell.github.io/WhatBeer',
                     sourceUrl: 'https://github.com/ClarkMitchell/WhatBeer/tree/master',
@@ -34,7 +34,7 @@ const createStore = () => {
                 {
                     id: 2,
                     name: 'Drum Machine',
-                    image: 'drum-machine-preview.jpg',
+                    image: '/drum-machine-preview.jpg',
                     imageAlt: 'Drum Machine Project Preview Image',
                     url: 'https://clarkmitchell.github.io/drum-machine/',
                     sourceUrl: 'https://github.com/ClarkMitchell/drum-machine',
@@ -43,7 +43,7 @@ const createStore = () => {
                 {
                     id: 3,
                     name: 'Spelling Quiz',
-                    image: 'spelling-quiz-preview.jpg',
+                    image: '/spelling-quiz-preview.jpg',
                     imageAlt: 'Speaking Spelling Java App Preview Image',
                     url:
                         'https://github.com/ClarkMitchell/SpellingQuiz/tree/master/SpellingQuiz/dist',
@@ -53,7 +53,7 @@ const createStore = () => {
                 {
                     id: 4,
                     name: 'ClarkMitchell.github.io',
-                    image: 'site-preview.jpg',
+                    image: '/site-preview.jpg',
                     imageAlt: 'This site, ClarkMitchell.github.io',
                     url: 'https://ClarkMitchell.github.io',
                     sourceUrl: 'https://github.com/ClarkMitchell/Github-Pages-Source',
