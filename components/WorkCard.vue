@@ -21,7 +21,7 @@
       <a class="card-footer-item" :href="work.sourceUrl">
         <span>
           <figure class="centered-image">
-            <img src="~/assets/GitHub-Logo.jpg" alt="Github icon">
+            <img src="/GitHub-Logo.jpg" alt="Github icon">
           </figure>
           Source
         </span>
