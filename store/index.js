@@ -52,13 +52,22 @@ const createStore = () => {
                 },
                 {
                     id: 4,
-                    name: 'ClarkMitchell.github.io',
+                    name: 'ClarkMitchell.io',
                     image: '/site-preview.jpg',
                     imageAlt: 'This site, ClarkMitchell.github.io',
-                    url: 'https://ClarkMitchell.github.io',
+                    url: 'https://ClarkMitchell.io',
                     sourceUrl: 'https://github.com/ClarkMitchell/Github-Pages-Source',
                     text: 'This site made with Vue.js and Nuxt.',
                 },
+                {
+                    id: 5,
+                    name: 'RebekahAndClark.com',
+                    image: '/rebekah-and-clark.jpg',
+                    imageAlt: 'A wedding site with a twilio RSVP app and API.',
+                    url: 'https://rebekahandclark.com',
+                    sourceUrl: 'https://github.com/ClarkMitchell/rebekah-and-clark',
+                    text: 'A wedding site with a twilio RSVP app and API.',
+                }
             ]
         },
         mutations: {
