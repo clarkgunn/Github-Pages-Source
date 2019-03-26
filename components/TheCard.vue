@@ -11,7 +11,7 @@
         <p class="dark-text subtitle is-6">
           Colorado Springs, CO
         </p>
-        <p class="dark-text subtitle is-3">
+        <p class="dark-text subtitle is-4">
           <no-ssr>
             <vue-typer
               :text="typedStrings"
