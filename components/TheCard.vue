@@ -15,8 +15,8 @@
           <no-ssr>
             <vue-typer
               :text="typedStrings"
-              type-delay="80"
-              repeat="0"
+              type-delay=80
+              repeat=0
               initial-action="typing"
               >
               Software Developer
