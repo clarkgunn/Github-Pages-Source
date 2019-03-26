@@ -12,12 +12,16 @@
           Colorado Springs, CO
         </p>
         <p class="dark-text subtitle is-3">
-          <vue-typer
-            :text="typedStrings"
-            type-delay="80"
-            repeat="0"
-          >
-          </vue-typer>
+          <no-ssr>
+            <vue-typer
+              :text="typedStrings"
+              type-delay="80"
+              repeat="0"
+              initial-action="typing"
+              >
+              Software Developer
+            </vue-typer>
+          </no-ssr>
         </p>
       </div>
     </div>
@@ -60,7 +64,14 @@
 </template>
 
 <script>
+if (process.browser) {
+  var VueTyper = require('vue-typer').VueTyper
+}
+
 export default {
+  components: {
+    VueTyper
+  },
   data () {
     return {
       typedStrings: [

@@ -44,8 +44,7 @@ module.exports = {
   ** Plugins to load before mounting the App
   */
   plugins: [
-    { src: '~plugins/vee-validate.js', ssr: true },
-    { src: 'plugins/vue-typer.js', ssr: false }
+    { src: '~plugins/vee-validate.js', ssr: true }
   ],
 
   /*
