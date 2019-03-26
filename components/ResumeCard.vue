@@ -27,7 +27,6 @@
         <div class="tile is-parent is-vertical">
           <article class="tile is-child notification">
             <section>
-              <i class="material-icons">contact_phone</i>
               <p class="title is-spaced">Contact</p>
               <p class="subtitle">
               <nuxt-link to="/" style="text-decoration: none">
@@ -39,7 +38,7 @@
                 {{ resume.basics.email }}
               </a>
               </p>
-              <p class="subtitle">{{ resume.basics.phone }}</p>                    
+              <p class="subtitle">{{ resume.basics.phone }}</p>
             </section>
             <hr>
             <section>
@@ -48,11 +47,11 @@
               <p>
                 {{ resume.basics.location.city + ', ' + resume.basics.location.region}}
                 </p>
-              <p>{{ resume.basics.location.countryCode }}</p>                                             
+              <p>{{ resume.basics.location.countryCode }}</p>
             </section>
           </article>
           <article class="tile is-child notification">
-            <p class="title">Work</p>       
+            <p class="title">Work</p>
             <a
               :href="resume.work[0].website"
               class="is-size-4"
@@ -60,8 +59,8 @@
             >
               {{ resume.work[0].company }}
             </a>
-            <p>{{ resume.work[0].position }}</p>     
-            <p>{{ resume.work[0].startDate }} - Current</p>                                    
+            <p>{{ resume.work[0].position }}</p>
+            <p>{{ resume.work[0].startDate }} - Current</p>
           </article>
         </div>
       </div>
@@ -80,7 +79,7 @@
                   {{ course }}
                 </li>
               </ul>
-            </div>    
+            </div>
         </div>
       </article>
     </div>

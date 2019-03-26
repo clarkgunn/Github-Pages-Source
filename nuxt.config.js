@@ -6,7 +6,7 @@ const path = require('path')
 module.exports = {
   mode: 'universal',
   loading: false,
-    
+
   manifest: {
     short_name: 'Clark',
     name: 'Clark Mitchell',
@@ -24,7 +24,7 @@ module.exports = {
       { hid: 'description', name: 'description', content: pkg.description }
     ],
     link: [
-        { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },         
+        { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
     ]
   },
 
@@ -44,7 +44,8 @@ module.exports = {
   ** Plugins to load before mounting the App
   */
   plugins: [
-    { src: '~plugins/vee-validate.js', ssr: true}
+    { src: '~plugins/vee-validate.js', ssr: true },
+    { src: 'plugins/vue-typer.js', ssr: false }
   ],
 
   /*

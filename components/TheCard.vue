@@ -12,7 +12,12 @@
           Colorado Springs, CO
         </p>
         <p class="dark-text subtitle is-3">
-          Software Developer
+          <vue-typer
+            :text="typedStrings"
+            type-delay="80"
+            repeat="0"
+          >
+          </vue-typer>
         </p>
       </div>
     </div>
@@ -53,6 +58,20 @@
     </footer>
   </div>
 </template>
+
+<script>
+export default {
+  data () {
+    return {
+      typedStrings: [
+        "Web Developer",
+        "Software Engineer",
+        "Aspiring Data Scientist"
+      ]
+    }
+  }
+};
+</script>
 
 <style scoped>
 .circle {

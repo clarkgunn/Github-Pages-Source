@@ -28,6 +28,7 @@
     "purgecss-webpack-plugin": "^0.22.0",
     "vee-validate": "^2.0.6",
     "vue-lottie": "^0.1.2",
+    "vue-typer": "^1.2.0",
     "webp-loader": "^0.4.0"
   },
   "devDependencies": {
