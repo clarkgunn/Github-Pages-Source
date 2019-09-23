@@ -1,7 +1,7 @@
-# [clarkmitchell.io](http://clarkmitchell.io)
+# [clarkmitchell.dev](http://clarkmitchell.dev)
 
 <p align="center">
-  A <a href="https://clarkmitchell.io">Static Website</a> created with:
+  A <a href="https://clarkmitchell.dev">Static Website</a> created with:
   <a href="https://vuejs.org/">Vue.js</a> |
   <a href="https://nuxtjs.org/">Nuxt.js</a> |
   <a href="https://webpack.js.org/">Webpack</a>
