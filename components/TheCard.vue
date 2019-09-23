@@ -9,7 +9,7 @@
           Clark Mitchell
         </h1>
         <p class="dark-text subtitle is-6">
-          Colorado Springs, CO
+          Gainesville, FL
         </p>
         <p class="dark-text subtitle is-4">
           <no-ssr>
@@ -29,7 +29,7 @@
       <a
         title="Github Profile Link"
         class="card-footer-item"
-        href="https://github.com/ClarkMitchell"
+        href="https://clarkmitchell.dev"
       >
         <span>
           <figure class="centered-image">
@@ -76,8 +76,8 @@ export default {
     return {
       typedStrings: [
         "Web Developer",
-        "Software Engineer",
-        "Aspiring Data Scientist"
+        "Mobile Developer",
+        "Software Engineer"
       ]
     }
   }
