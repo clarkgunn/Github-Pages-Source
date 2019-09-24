@@ -7,7 +7,7 @@ const createStore = () => {
             links: [
                 { id: 0, text: 'Home', url: '/', isActive: true },
                 { id: 1, text: 'Works', url: '/works', isActive: false },
-                { id: 2, text: 'Resume', url: '/resume', isActive: false },
+                { id: 2, text: 'Resume', url: '/resume/', isActive: false },
                 { id: 3, text: 'Blog', url: '/blog', isActive: false },                
                 { id: 4, text: 'Contact', url: '/contact', isActive: false },
             ],
