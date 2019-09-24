@@ -5,5 +5,9 @@
 </template>
 
 <script>
-export default {}
+export default {
+  created: function () {
+      location.href = 'https://clarkmitchell.dev/resume/'
+    }
+}
 </script>
