@@ -53,8 +53,8 @@ export default {
     setActiveLink(link) {
       this.isActive = false;
       this.$store.dispatch('setLinkIsActive', link);
-      if (link.text === "resume") {
-          this.$router.go({path: link.url, force: true});
+      if (link.text === "Resume") {
+        this.$router.go({path: link.url, force: true});
       }
     },
   },
