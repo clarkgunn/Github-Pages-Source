@@ -26,9 +26,6 @@ export default {
     setActiveLink(link) {
       this.$store.dispatch('setLinkIsActive', link);
       this.links = this.$store.getters.getLinks;
-      if (link.text === "Resume") {
-        this.$router.go({path: link.url, force: true});
-      }
     },
   },
   mounted() {
