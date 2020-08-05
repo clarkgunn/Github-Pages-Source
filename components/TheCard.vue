@@ -2,7 +2,7 @@
   <div class="card">
     <div class="card-content">
       <figure class="avatar centered-image">
-        <img src="/Clark.png" alt="Selfie Gif" class="circle">
+        <img src="/Clark.png" alt="Selfie Gif" class="circle" />
       </figure>
       <div id="title">
         <h1 class="dark-text title is-1 is-spaced">
@@ -15,10 +15,10 @@
           <no-ssr>
             <vue-typer
               :text="typedStrings"
-              type-delay=80
-              repeat=0
+              type-delay="80"
+              repeat="0"
               initial-action="typing"
-              >
+            >
               Software Developer
             </vue-typer>
           </no-ssr>
@@ -33,7 +33,7 @@
       >
         <span>
           <figure class="centered-image">
-            <img src="/GitHub-Logo.jpg" alt="Github icon">
+            <img src="/GitHub-Logo.jpg" alt="Github icon" />
           </figure>
         </span>
       </a>
@@ -44,7 +44,7 @@
       >
         <span>
           <figure class="centered-image">
-            <img src="/linkedin.jpg" alt="Linkedin icon">
+            <img src="/linkedin.jpg" alt="Linkedin icon" />
           </figure>
         </span>
       </a>
@@ -55,7 +55,7 @@
       >
         <span>
           <figure class="centered-image">
-            <img src="/Gitlab-Logo.jpg" alt="Gitlab icon">
+            <img src="/Gitlab-Logo.jpg" alt="Gitlab icon" />
           </figure>
         </span>
       </a>
@@ -65,26 +65,22 @@
 
 <script>
 if (process.browser) {
-  var VueTyper = require('vue-typer').VueTyper
+  var VueTyper = require("vue-typer").VueTyper;
 }
 
 export default {
   components: {
     VueTyper
   },
-  data () {
+  data() {
     return {
-      typedStrings: [
-        "Web Developer",
-        "Mobile Developer",
-        "Software Engineer"
-      ]
-    }
+      typedStrings: ["Web Developer", "Mobile Developer", "Software Engineer"]
+    };
   }
 };
 </script>
 
-<style scoped>
+<style>
 .circle {
   border-radius: 50%;
   border: 5px solid white;
@@ -107,8 +103,7 @@ export default {
   margin-top: -125px;
 }
 
-.dark-text.title.is-1,
-.dark-text.subtitle {
-  color: hsl(0, 0%, 21%);
+.dark-text {
+  color: hsl(0, 0%, 21%) !important;
 }
 </style>

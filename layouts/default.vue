@@ -2,26 +2,26 @@
   <div>
     <section class="hero is-info is-fullheight has-bg-img">
       <TheHeroHead :links="links"></TheHeroHead>
-        <transition name="slide" mode="out-in">
-          <nuxt/>
-        </transition>
+      <transition name="slide" mode="out-in">
+        <nuxt />
+      </transition>
       <TheHeroFoot :links="links"></TheHeroFoot>
     </section>
   </div>
 </template>
 
 <script>
-import TheHeroHead from '~/components/TheHeroHead.vue';
-import TheHeroFoot from '~/components/TheHeroFoot.vue';
+import TheHeroHead from "~/components/TheHeroHead.vue";
+import TheHeroFoot from "~/components/TheHeroFoot.vue";
 
 export default {
   components: {
     TheHeroHead,
-    TheHeroFoot,
+    TheHeroFoot
   },
   created() {
     this.links = this.$store.getters.getLinks;
-  },
+  }
 };
 </script>
 
@@ -36,8 +36,8 @@ label {
 .has-bg-img {
   height: 100%;
   background: hsl(204, 86%, 53%);
-  background: url('/mountain.png')center center;
-  background: url('/mountain.png')center center,
+  background: url("/mountain.png") center center;
+  background: url("/mountain.png") center center,
     linear-gradient(45deg, hsl(204, 86%, 53%), hsl(171, 100%, 41%));
   background-size: cover;
   background-attachment: fixed;
